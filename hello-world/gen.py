@@ -28,8 +28,8 @@ def gen():
         print(dist, file=f)
 
 
-file_num = 1
+file_num = 10
 for i in range(file_num):
-    # gen()
+    gen()
     subprocess.run(["git", "add", "."])
-    subprocess.run(["git", "commit", "-m", "update"+random.choice(filename)])
+    subprocess.run(["git", "commit", "-m", "update_"+random.choice(filename)])
