@@ -10,10 +10,30 @@ code = ["var x, y, z;",
         "const hello = 'Hello, World!';", "var FLT_SIGNBIT  = 0b10000000000000000000000000000000; ",
         "var FLT_EXPONENT = 0b01111111100000000000000000000000;",
         "var m = 0644; ",
-        "const key = 114514"]
+        "const key = 114514",
+        "var message = document.getElementById('text');",
+        "message.style.backgroundColor = 'red';",
+        " var btn = document.getElementById('btn');",
+        " btn.onclick = function(){",
+        "             ",
+        "alear()",
+        "console.log('出力');",
+        "var fullName = lastName + firstName;",
+        "var x = 10;",
+        "console.log(result); //30",
+        "var fruit = ['みかん', 'りんご', 'ぶどう'];",
+        "var lastElement = fruit[lastIndex];",
+        "var person = {name:'hacl'}",
+        "var postcode = person.address.postcode;",
+        "if(name === '山田太郎' && !url){}",
+        "console.log('こんにちは');",
+        "//ここから変更",
+        "//ここまで",
+        "//WARNING:ここを編集するな"]
 
 filename = ["file", "manager", "png", "hello", "cpp",
-            "wrraper", "tcp", "udp", "cont", "exit", "read", "log"]
+            "wrraper", "tcp", "udp", "cont", "exit", "read",
+            "log", "msg", "ip", "view", "content", "header", "http"]
 
 
 def gen():
