@@ -1,5 +1,6 @@
 import random
-from tkinter.font import names
+import time
+import subprocess
 
 code = ["var x, y, z;",
         "var mycar = {make: 'Honda', model: 'Accord', year: 1998;",
@@ -14,6 +15,7 @@ code = ["var x, y, z;",
 filename = ["file", "manager", "png", "hello", "cpp",
             "wrraper", "tcp", "udp", "cont", "exit", "read", "log"]
 
+
 def gen():
     gyo = random.randint(2500, 5000)
     dist = ""
@@ -25,6 +27,9 @@ def gen():
     with open(name+".js", 'w') as f:
         print(dist, file=f)
 
-file_num = 10
+
+file_num = 1
 for i in range(file_num):
-    gen()
+    # gen()
+    subprocess.run(["git", "add", "."])
+    subprocess.run(["git", "commit", "-m", "update"+random.choice(filename)])
