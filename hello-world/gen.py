@@ -46,6 +46,7 @@ def gen():
     name = random.choice(filename) + "_" + random.choice(filename)
     with open(name+".js", 'w') as f:
         print(dist, file=f)
+    print("CREATED!"+name)
 
 
 file_num = 30
@@ -55,4 +56,5 @@ for i in range(file_num):
     subprocess.run(["git", "commit", "-m", "update_"+random.choice(filename)])
     if(i % 5):
         subprocess.run(["git", "push", "-u", "origin", "main"])
+        print("GITHUB PUSH!")
     time.sleep(random.randint(1000, 2000))
