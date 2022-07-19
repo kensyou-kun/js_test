@@ -10,9 +10,10 @@ filename = ["file", "manager", "png", "hello", "cpp",
 
 
 def gen():
-    test_data = open("./cppsource.txt", "r")
+    test_data = open("./cppsource.txt", "r",encoding="utf-8")
     for l in test_data:
         code.append(l)
+    test_data.close()
 
     gyo = random.randint(2500, 5000)
     dist = ""
