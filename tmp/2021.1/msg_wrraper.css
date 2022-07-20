@@ -1,0 +1,4571 @@
+
+
+    this.setState({ value: e.target.value });
+
+    return (
+
+  gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGBA, gl.RGBA, gl.UNSIGNED_BYTE, image);
+
+  mvMatrix = mvMatrixStack.pop();
+
+  cubeImage = new Image();
+
+
+
+    return (
+
+var normalMatrix = mvMatrix.inverse();
+
+}
+
+
+
+  document.getElementById('root')
+
+function initTextures() {
+
+  return <h1>{router.query.name}の{router.query.color}color</h1>;
+
+
+
+    mvMatrixStack.push(m.dup());
+
+  )
+
+}
+
+      <h1>Hello world</h1>
+
+var nUniform = gl.getUniformLocation(shaderProgram, "uNormalMatrix");
+
+class Timer extends React.Component {
+
+    );
+
+  document.getElementById('root')
+
+          <Link href="/about">
+
+
+
+    this.state = { value: 'Hello, **world**!' };
+
+      seconds: state.seconds + 1
+
+  varying highp vec3 vLighting;
+
+    squareYOffset += yIncValue * ((30 * delta) / 1000.0);
+
+  gl.clearColor(0.0, 0.0, 0.0, 1.0);
+
+
+
+  )
+
+  constructor(props) {
+
+  console.log(router.query)
+
+  getRawMarkup() {
+
+    );
+
+            What needs to be done?
+
+      <ul>
+
+  render() {
+
+    highp vec3 directionalVector = vec3(0.85, 0.8, 0.75);
+
+}
+
+
+
+  const canvas = document.querySelector("#glCanvas");
+
+    this.setState(state => ({
+
+
+
+}
+
+  render() {
+
+    gl_Position = uPMatrix * uMVMatrix * vec4(aVertexPosition, 1.0);
+
+export default App;
+
+}
+
+    highp vec3 directionalLightColor = vec3(0.5, 0.5, 0.75);
+
+
+
+
+
+    highp vec4 transformedNormal = uNormalMatrix * vec4(aVertexNormal, 1.0);
+
+  success: function( result ) {
+
+}
+
+  document.getElementById('root')
+
+  }
+
+  }
+
+  void main(void) {
+
+  handleChange(e) {
+
+    return (
+
+    squareXOffset += xIncValue * ((30 * delta) / 1000.0);
+
+import { useRouter } from "next/router";
+
+export default About
+
+    this.handleSubmit = this.handleSubmit.bind(this);
+
+  if (gl === null) {
+
+class TodoApp extends React.Component {
+
+
+
+      xIncValue = -xIncValue;
+
+}
+
+});
+
+
+
+
+
+  render() {
+
+    return;
+
+  constructor(props) {
+
+});
+
+class TodoApp extends React.Component {
+
+  gl.clearColor(0.0, 0.0, 0.0, 1.0);
+
+  uniform highp mat4 uPMatrix;
+
+            <a>About</a>
+
+
+
+  return (
+
+class Timer extends React.Component {
+
+export default function Color() {
+
+  getRawMarkup() {
+
+  }
+
+    if (Math.abs(squareYOffset) > 2.5) {
+
+}
+
+  return (
+
+  var inRadians = angle * Math.PI / 180.0;
+
+  }
+
+    gl_Position = uPMatrix * uMVMatrix * vec4(aVertexPosition, 1.0);
+
+  }
+
+
+
+import React, { Component } from 'react';
+
+  handleChange(e) {
+
+  handleChange(e) {
+
+
+
+    zipcode: 97201
+
+}
+
+    }));
+
+import Link from "next/link";
+
+  varying highp vec3 vLighting;
+
+ReactDOM.render(
+
+);
+
+    mvMatrixStack.push(mvMatrix.dup());
+
+class MarkdownEditor extends React.Component {
+
+    zipcode: 97201
+
+function initTextures() {
+
+    return (
+
+  }
+
+  gl.clear(gl.COLOR_BUFFER_BIT);
+
+        <form onSubmit={this.handleSubmit}>
+
+
+
+    this.interval = setInterval(() => this.tick(), 1000);
+
+  var m = Matrix.Rotation(inRadians, $V([v[0], v[1], v[2]])).ensure4x4();
+
+        <h3>TODO</h3>
+
+  attribute highp vec3 aVertexPosition;
+
+  }
+
+  return (
+
+          <label htmlFor="new-todo">
+
+}
+
+
+
+
+
+  }
+
+
+
+export default function Color() {
+
+    return (
+
+          </Link>
+
+  uniform highp mat4 uNormalMatrix;
+
+}
+
+
+
+export default App;
+
+
+
+  }
+
+  );
+
+    </div>
+
+  varying highp vec2 vTextureCoord;
+
+  )
+
+    this.setState(state => ({
+
+export default function Name() {
+
+});
+
+      zIncValue = -zIncValue;
+
+  gl.clear(gl.COLOR_BUFFER_BIT);
+
+import { useRouter } from "next/router";
+
+class App extends Component {
+
+  success: function( result ) {
+
+  cubeImage.onload = function() { handleTextureLoaded(cubeImage, cubeTexture); }
+
+    highp vec3 directionalLightColor = vec3(0.5, 0.5, 0.75);
+
+  if (m) {
+
+      seconds: state.seconds + 1
+
+    highp float directional = max(dot(transformedNormal.xyz, directionalVector), 0.0);
+
+  return <h1>{router.query.name}の{router.query.color}color</h1>;
+
+  multMatrix(m);
+
+var mvMatrixStack = [];
+
+            What needs to be done?
+
+    if (Math.abs(squareYOffset) > 2.5) {
+
+    return { __html: this.md.render(this.state.value) };
+
+    mvMatrix = m.dup();
+
+}
+
+    mvMatrixStack.push(mvMatrix.dup());
+
+export default function Color() {
+
+function main() {
+
+      <div>
+
+  },
+
+            <a>About</a>
+
+ReactDOM.render(
+
+
+
+    highp float directional = max(dot(transformedNormal.xyz, directionalVector), 0.0);
+
+
+
+  render() {
+
+}
+
+    }));
+
+export default App;
+
+        <form onSubmit={this.handleSubmit}>
+
+// Arrow function
+
+function mvPopMatrix() {
+
+
+
+class Timer extends React.Component {
+
+
+
+
+
+  attribute highp vec2 aTextureCoord;
+
+      </ul>
+
+  }
+
+    <h1>About Page</h1>
+
+            <a>About</a>
+
+            <a>About</a>
+
+import Link from "next/link";
+
+  }
+
+function mvRotate(angle, v) {
+
+      zIncValue = -zIncValue;
+
+
+
+gl.uniformMatrix4fv(nUniform, false, new WebGLFloatArray(normalMatrix.flatten()));
+
+  const router = useRouter();
+
+  uniform highp mat4 uMVMatrix;
+
+
+
+  const gl = canvas.getContext("webgl");
+
+    this.handleChange = this.handleChange.bind(this);
+
+  gl.generateMipmap(gl.TEXTURE_2D);
+
+  tick() {
+
+  if (gl === null) {
+
+  } else {
+
+
+
+  gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGBA, gl.RGBA, gl.UNSIGNED_BYTE, image);
+
+  uniform highp mat4 uPMatrix;
+
+    );
+
+  constructor(props) {
+
+  var inRadians = angle * Math.PI / 180.0;
+
+    vTextureCoord = aTextureCoord;
+
+    return (
+
+  }
+
+    this.handleChange = this.handleChange.bind(this);
+
+    <h1>About Page</h1>
+
+normalMatrix = normalMatrix.transpose();
+
+function mvPushMatrix(m) {
+
+
+
+  mvMatrix = mvMatrixStack.pop();
+
+});
+
+import Link from "next/link";
+
+  }
+
+
+
+    <div>
+
+
+
+  console.log(router.query)
+
+      zIncValue = -zIncValue;
+
+<script id="shader-vs" type="x-shader/x-vertex">
+
+    this.handleChange = this.handleChange.bind(this);
+
+    super(props);
+
+        <h3>TODO</h3>
+
+
+
+  }
+
+    gl_Position = uPMatrix * uMVMatrix * vec4(aVertexPosition, 1.0);
+
+var hiddenBox = $( "#banner-message" );
+
+  var inRadians = angle * Math.PI / 180.0;
+
+  return (
+
+  uniform highp mat4 uMVMatrix;
+
+
+
+
+
+  handleChange(e) {
+
+      seconds: state.seconds + 1
+
+    gl_Position = uPMatrix * uMVMatrix * vec4(aVertexPosition, 1.0);
+
+}
+
+  gl.clear(gl.COLOR_BUFFER_BIT);
+
+$.ajax({
+
+  getRawMarkup() {
+
+  }
+
+ReactDOM.render(
+
+
+
+
+
+        <li>
+
+    highp vec3 ambientLight = vec3(0.6, 0.6, 0.6);
+
+  constructor(props) {
+
+  mvMatrix = mvMatrixStack.pop();
+
+export default function Name() {
+
+function mvPopMatrix() {
+
+  }
+
+ReactDOM.render(
+
+var hiddenBox = $( "#banner-message" );
+
+  varying highp vec2 vTextureCoord;
+
+    mvMatrix = m.dup();
+
+      zIncValue = -zIncValue;
+
+    );
+
+      yIncValue = -yIncValue;
+
+  gl.generateMipmap(gl.TEXTURE_2D);
+
+    return (
+
+});
+
+  }
+
+    this.setState({ value: e.target.value });
+
+
+
+class App extends Component {
+
+
+
+
+
+    );
+
+  return (
+
+export default About
+
+  return (
+
+  gl.bindTexture(gl.TEXTURE_2D, texture);
+
+
+
+function About() {
+
+  );
+
+<script id="shader-vs" type="x-shader/x-vertex">
+
+
+
+
+
+import React, { Component } from 'react';
+
+
+
+
+
+class App extends Component {
+
+    this.handleChange = this.handleChange.bind(this);
+
+    this.state = { items: [], text: '' };
+
+  gl.bindTexture(gl.TEXTURE_2D, null);
+
+  } else {
+
+    this.md = new Remarkable();
+
+  void main(void) {
+
+  if (!mvMatrixStack.length) {
+
+  cubeTexture = gl.createTexture();
+
+function About() {
+
+      <ul>
+
+  }
+
+  cubeImage = new Image();
+
+    return;
+
+  uniform highp mat4 uMVMatrix;
+
+
+
+  constructor(props) {
+
+
+
+  gl.clearColor(0.0, 0.0, 0.0, 1.0);
+
+  }
+
+}
+
+
+
+  } else {
+
+  cubeImage = new Image();
+
+
+
+
+
+}
+
+  gl.clearColor(0.0, 0.0, 0.0, 1.0);
+
+  success: function( result ) {
+
+export default About
+
+  }
+
+  componentDidMount() {
+
+class TodoApp extends React.Component {
+
+
+
+    mvMatrix = m.dup();
+
+window.onload = main;
+
+    }));
+
+  }
+
+  }
+
+    return (
+
+
+
+    this.setState(state => ({
+
+    <h1>About Page</h1>
+
+        <form onSubmit={this.handleSubmit}>
+
+    $( "#weather-temp" ).html( "<strong>" + result + "</strong> degrees" );
+
+    this.state = { seconds: 0 };
+
+import React, { Component } from 'react';
+
+  console.log(router.query)
+
+      zIncValue = -zIncValue;
+
+  )
+
+class App extends React.Component {
+
+  return (
+
+  render() {
+
+
+
+class App extends Component {
+
+    return (
+
+  }
+
+
+
+
+
+function About() {
+
+  return (
+
+  var m = Matrix.Rotation(inRadians, $V([v[0], v[1], v[2]])).ensure4x4();
+
+
+
+  <App />,
+
+  }
+
+
+
+
+
+  console.log(router.query)
+
+    this.state = { items: [], text: '' };
+
+
+
+  mvMatrix = mvMatrixStack.pop();
+
+}
+
+class MarkdownEditor extends React.Component {
+
+class TodoApp extends React.Component {
+
+);
+
+    this.handleSubmit = this.handleSubmit.bind(this);
+
+  handleChange(e) {
+
+
+
+
+
+class MarkdownEditor extends React.Component {
+
+var nUniform = gl.getUniformLocation(shaderProgram, "uNormalMatrix");
+
+}
+
+  }
+
+  render() {
+
+  mvMatrix = mvMatrixStack.pop();
+
+      <FormApp />
+
+  handleChange(e) {
+
+<script id="shader-vs" type="x-shader/x-vertex">
+
+  }
+
+
+
+class App extends Component {
+
+$.ajax({
+
+const About = () => {
+
+  constructor(props) {
+
+}
+gl.uniformMatrix4fv(nUniform, false, new WebGLFloatArray(normalMatrix.flatten()));
+
+      <FormApp />
+
+          <label htmlFor="new-todo">
+
+}
+
+    highp vec3 directionalLightColor = vec3(0.5, 0.5, 0.75);
+
+        <li>
+
+  return <h1>{router.query.name}の{router.query.color}color</h1>;
+
+);
+
+        <h3>TODO</h3>
+
+  if (m) {
+
+  uniform highp mat4 uPMatrix;
+
+  return (
+
+  if (!mvMatrixStack.length) {
+
+
+
+  var m = Matrix.Rotation(inRadians, $V([v[0], v[1], v[2]])).ensure4x4();
+
+  constructor(props) {
+
+
+
+
+
+  const router = useRouter();
+
+  gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MAG_FILTER, gl.LINEAR);
+
+export default function Name() {
+
+  gl.generateMipmap(gl.TEXTURE_2D);
+
+  componentDidMount() {
+
+  gl.clear(gl.COLOR_BUFFER_BIT);
+
+}
+
+            What needs to be done?
+
+      <h1>Hello Next.js</h1>
+
+  return mvMatrix;
+
+gl.uniformMatrix4fv(nUniform, false, new WebGLFloatArray(normalMatrix.flatten()));
+
+    return (
+
+    this.handleChange = this.handleChange.bind(this);
+
+    <h1>About Page</h1>
+
+  const router = useRouter();
+
+  varying highp vec2 vTextureCoord;
+
+    highp float directional = max(dot(transformedNormal.xyz, directionalVector), 0.0);
+
+      </ul>
+
+    </div>
+
+    $( "#weather-temp" ).html( "<strong>" + result + "</strong> degrees" );
+
+      xIncValue = -xIncValue;
+
+  const router = useRouter();
+
+    );
+
+  gl.bindTexture(gl.TEXTURE_2D, null);
+
+
+
+gl.uniformMatrix4fv(nUniform, false, new WebGLFloatArray(normalMatrix.flatten()));
+
+  }
+
+  }
+
+      <h1>Hello Next.js</h1>
+
+    return (
+
+  )
+
+
+
+export default About
+
+  const router = useRouter();
+
+        </li>
+
+function mvPopMatrix() {
+
+  render() {
+
+    this.state = { value: 'Hello, **world**!' };
+
+var mvMatrixStack = [];
+
+    vLighting = ambientLight + (directionalLightColor * directional);
+
+  attribute highp vec3 aVertexNormal;
+
+    this.setState({ value: e.target.value });
+
+class TodoApp extends React.Component {
+
+  return (
+
+export default About
+
+export default App;
+
+          </Link>
+
+  console.log(router.query)
+
+  const router = useRouter();
+
+  gl.generateMipmap(gl.TEXTURE_2D);
+
+  }
+
+    <div>
+
+      <h1>Hello Next.js</h1>
+
+function initTextures() {
+
+import Link from "next/link";
+
+    mvMatrixStack.push(mvMatrix.dup());
+
+  cubeImage.onload = function() { handleTextureLoaded(cubeImage, cubeTexture); }
+
+class TodoApp extends React.Component {
+
+      xIncValue = -xIncValue;
+
+  render() {
+
+normalMatrix = normalMatrix.transpose();
+
+  }
+
+
+
+  return <h1>{router.query.name}の{router.query.color}color</h1>;
+
+  render() {
+
+var nUniform = gl.getUniformLocation(shaderProgram, "uNormalMatrix");
+
+  render() {
+
+
+
+  gl.bindTexture(gl.TEXTURE_2D, texture);
+
+  render() {
+
+
+
+
+
+  return (
+
+export default function Home() {
+
+gl.uniformMatrix4fv(nUniform, false, new WebGLFloatArray(normalMatrix.flatten()));
+
+
+
+}
+
+    this.state = { value: 'Hello, **world**!' };
+
+);
+
+
+
+}
+
+  const router = useRouter();
+
+    this.handleSubmit = this.handleSubmit.bind(this);
+
+  }
+
+
+
+  componentDidMount() {
+
+        </li>
+
+
+
+    gl_Position = uPMatrix * uMVMatrix * vec4(aVertexPosition, 1.0);
+
+
+
+window.onload = main;
+
+import React, { Component } from 'react';
+
+function mvPushMatrix(m) {
+
+  );
+
+export default About
+
+    $( "#weather-temp" ).html( "<strong>" + result + "</strong> degrees" );
+
+
+
+var mvMatrixStack = [];
+
+    this.setState({ value: e.target.value });
+
+ReactDOM.render(
+
+function mvPushMatrix(m) {
+
+  return (
+
+    super(props);
+
+    <h1>About Page</h1>
+
+
+
+    this.state = { items: [], text: '' };
+
+
+
+  handleChange(e) {
+
+  uniform highp mat4 uPMatrix;
+
+  console.log(router.query)
+
+  }
+
+  gl.bindTexture(gl.TEXTURE_2D, null);
+
+    }));
+
+    return (
+
+});
+
+
+
+  attribute highp vec2 aTextureCoord;
+
+function mvPopMatrix() {
+
+  cubeImage.onload = function() { handleTextureLoaded(cubeImage, cubeTexture); }
+
+      zIncValue = -zIncValue;
+
+        </li>
+
+        <h3>TODO</h3>
+
+export default function Name() {
+
+import { useRouter } from "next/router";
+
+    super(props);
+
+  const gl = canvas.getContext("webgl");
+
+<script id="shader-vs" type="x-shader/x-vertex">
+
+    this.handleChange = this.handleChange.bind(this);
+
+  },
+
+  varying highp vec3 vLighting;
+
+  return (
+
+
+
+    mvMatrixStack.push(mvMatrix.dup());
+
+      seconds: state.seconds + 1
+
+<script id="shader-vs" type="x-shader/x-vertex">
+
+}
+
+  cubeImage.src = "cubetexture.png";
+
+var hiddenBox = $( "#banner-message" );
+
+class App extends React.Component {
+
+
+
+normalMatrix = normalMatrix.transpose();
+
+
+
+export default About
+
+window.onload = main;
+
+    this.setState({ value: e.target.value });
+
+
+
+  );
+
+  success: function( result ) {
+
+  )
+
+    super(props);
+
+          </Link>
+
+    mvMatrix = m.dup();
+
+function mvPopMatrix() {
+
+      <h1>Hello world</h1>
+
+  success: function( result ) {
+
+
+
+
+
+    vLighting = ambientLight + (directionalLightColor * directional);
+
+class TodoApp extends React.Component {
+
+    this.handleSubmit = this.handleSubmit.bind(this);
+
+  gl.clear(gl.COLOR_BUFFER_BIT);
+
+
+
+
+
+var nUniform = gl.getUniformLocation(shaderProgram, "uNormalMatrix");
+
+        <form onSubmit={this.handleSubmit}>
+
+  constructor(props) {
+
+  gl.clearColor(0.0, 0.0, 0.0, 1.0);
+
+
+
+    );
+
+<script id="shader-vs" type="x-shader/x-vertex">
+
+  cubeImage = new Image();
+
+  }
+
+            <a>About</a>
+
+        <TodoList items={this.state.items} />
+
+}
+
+  return (
+
+  const canvas = document.querySelector("#glCanvas");
+
+  return (
+
+  }
+
+});
+
+}
+
+
+
+  gl.clearColor(0.0, 0.0, 0.0, 1.0);
+
+    super(props);
+
+  return (
+
+    );
+
+
+
+      zIncValue = -zIncValue;
+
+
+
+      <ul>
+
+gl.uniformMatrix4fv(nUniform, false, new WebGLFloatArray(normalMatrix.flatten()));
+
+  constructor(props) {
+
+
+
+  gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGBA, gl.RGBA, gl.UNSIGNED_BYTE, image);
+
+  render() {
+
+    this.md = new Remarkable();
+
+
+
+import Link from "next/link";
+
+  gl.generateMipmap(gl.TEXTURE_2D);
+
+
+
+
+
+  }
+
+// Arrow function
+
+    highp vec4 transformedNormal = uNormalMatrix * vec4(aVertexNormal, 1.0);
+
+}
+
+
+
+  const router = useRouter();
+
+}
+
+    zipcode: 97201
+
+    this.state = { items: [], text: '' };
+
+  gl.generateMipmap(gl.TEXTURE_2D);
+
+  }
+
+
+
+
+
+
+
+    );
+
+    return;
+
+function mvRotate(angle, v) {
+
+
+
+function handleTextureLoaded(image, texture) {
+
+      <h1>Hello Next.js</h1>
+
+  console.log(router.query)
+
+export default App;
+
+function main() {
+
+
+
+}
+
+
+
+  uniform highp mat4 uPMatrix;
+
+    mvMatrix = m.dup();
+
+    return (
+
+
+
+  render() {
+
+}
+
+  uniform highp mat4 uPMatrix;
+
+  uniform highp mat4 uPMatrix;
+
+function initTextures() {
+
+export default App;
+
+        </li>
+
+
+
+      zIncValue = -zIncValue;
+
+    );
+
+export default function Home() {
+
+  } else {
+
+
+
+    highp float directional = max(dot(transformedNormal.xyz, directionalVector), 0.0);
+
+  constructor(props) {
+
+}
+
+class App extends React.Component {
+
+  if (gl === null) {
+
+
+
+  gl.generateMipmap(gl.TEXTURE_2D);
+
+  document.getElementById('root')
+
+  } else {
+
+  gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MAG_FILTER, gl.LINEAR);
+
+  uniform highp mat4 uPMatrix;
+
+  cubeImage.src = "cubetexture.png";
+
+    gl_Position = uPMatrix * uMVMatrix * vec4(aVertexPosition, 1.0);
+
+  gl.generateMipmap(gl.TEXTURE_2D);
+
+    this.handleSubmit = this.handleSubmit.bind(this);
+
+    this.state = { value: 'Hello, **world**!' };
+
+  handleChange(e) {
+
+  console.log(router.query)
+
+    super(props);
+
+      <h1>Hello world</h1>
+
+var nUniform = gl.getUniformLocation(shaderProgram, "uNormalMatrix");
+
+    mvMatrixStack.push(m.dup());
+
+  const gl = canvas.getContext("webgl");
+
+var nUniform = gl.getUniformLocation(shaderProgram, "uNormalMatrix");
+
+  return mvMatrix;
+
+
+
+
+
+  var m = Matrix.Rotation(inRadians, $V([v[0], v[1], v[2]])).ensure4x4();
+
+
+
+          <Link href="/about">
+
+    }
+
+
+
+          <label htmlFor="new-todo">
+
+  }
+
+  mvMatrix = mvMatrixStack.pop();
+
+
+
+  if (m) {
+
+    return (
+
+      <FormApp />
+
+        <TodoList items={this.state.items} />
+
+    highp float directional = max(dot(transformedNormal.xyz, directionalVector), 0.0);
+
+
+
+
+
+var hiddenBox = $( "#banner-message" );
+
+const About = () => {
+
+  cubeTexture = gl.createTexture();
+
+
+
+  const router = useRouter();
+
+  )
+
+var hiddenBox = $( "#banner-message" );
+
+    this.state = { value: 'Hello, **world**!' };
+
+export default About
+
+
+
+  return (
+
+
+
+  render() {
+
+    highp vec3 directionalVector = vec3(0.85, 0.8, 0.75);
+
+normalMatrix = normalMatrix.transpose();
+
+  }
+
+  gl.bindTexture(gl.TEXTURE_2D, texture);
+
+var normalMatrix = mvMatrix.inverse();
+
+
+
+
+
+  } else {
+
+    </div>
+
+class TodoApp extends React.Component {
+
+
+
+    gl_Position = uPMatrix * uMVMatrix * vec4(aVertexPosition, 1.0);
+
+      yIncValue = -yIncValue;
+
+
+
+}
+  }
+
+  }
+
+          <label htmlFor="new-todo">
+
+}
+
+}
+
+    this.setState(state => ({
+
+      </ul>
+
+      xIncValue = -xIncValue;
+
+  const router = useRouter();
+
+  attribute highp vec3 aVertexPosition;
+
+
+
+    );
+
+
+
+</script>
+
+}
+
+    highp vec3 directionalLightColor = vec3(0.5, 0.5, 0.75);
+
+  },
+
+      <h1>Hello world</h1>
+
+}
+
+import { useRouter } from "next/router";
+
+  gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MIN_FILTER, gl.LINEAR_MIPMAP_NEAREST);
+
+}
+
+    </div>
+
+  document.getElementById('root')
+
+  }
+
+      <ul>
+
+  constructor(props) {
+
+    <h1>About Page</h1>
+
+    this.handleSubmit = this.handleSubmit.bind(this);
+
+class MarkdownEditor extends React.Component {
+
+  attribute highp vec2 aTextureCoord;
+
+$.ajax({
+
+var nUniform = gl.getUniformLocation(shaderProgram, "uNormalMatrix");
+
+        <TodoList items={this.state.items} />
+
+
+
+
+
+
+
+  }
+
+  return (
+
+  }
+
+    <h1>About Page</h1>
+
+
+
+    super(props);
+
+    );
+
+    );
+
+  tick() {
+
+gl.uniformMatrix4fv(nUniform, false, new WebGLFloatArray(normalMatrix.flatten()));
+
+  if (!mvMatrixStack.length) {
+
+    this.handleChange = this.handleChange.bind(this);
+
+    super(props);
+
+function initTextures() {
+
+
+
+export default About
+
+
+
+            What needs to be done?
+
+  )
+
+  }
+
+      <FormApp />
+
+  }
+
+
+
+      <h1>Hello Next.js</h1>
+
+      <h1>Hello world</h1>
+
+    <h1>About Page</h1>
+
+  render() {
+
+    <div>
+
+
+
+}
+
+    zipcode: 97201
+
+    mvMatrixStack.push(mvMatrix.dup());
+
+        <TodoList items={this.state.items} />
+
+
+
+  render() {
+
+class MarkdownEditor extends React.Component {
+
+    return { __html: this.md.render(this.state.value) };
+
+    this.setState({ value: e.target.value });
+
+    this.setState(state => ({
+
+
+
+  data: {
+
+
+
+  }
+
+  var inRadians = angle * Math.PI / 180.0;
+
+function mvPushMatrix(m) {
+
+
+
+  }
+
+  const router = useRouter();
+
+    return (
+
+
+
+    highp vec4 transformedNormal = uNormalMatrix * vec4(aVertexNormal, 1.0);
+
+  render() {
+
+  componentDidMount() {
+
+      <ul>
+
+);
+
+
+
+}
+
+}
+
+
+
+    return (
+
+  },
+
+  url: "/api/getWeather",
+
+
+
+function mvRotate(angle, v) {
+
+}
+
+    return (
+
+
+
+    super(props);
+
+    this.interval = setInterval(() => this.tick(), 1000);
+
+}
+
+  document.getElementById('root')
+
+  )
+
+function About() {
+
+
+
+
+
+    return (
+
+
+
+    highp vec3 ambientLight = vec3(0.6, 0.6, 0.6);
+
+
+
+var hiddenBox = $( "#banner-message" );
+
+  }
+
+
+
+            What needs to be done?
+
+    zipcode: 97201
+
+  }
+
+  attribute highp vec3 aVertexNormal;
+
+    mvMatrixStack.push(mvMatrix.dup());
+
+export default About
+
+}
+
+  return (
+
+  constructor(props) {
+
+        <h3>TODO</h3>
+
+  }
+
+
+
+      xIncValue = -xIncValue;
+
+import { FormApp } from './FormApp';
+
+function mvRotate(angle, v) {
+
+  } else {
+
+);
+
+
+
+}
+
+
+
+    highp vec3 directionalVector = vec3(0.85, 0.8, 0.75);
+
+
+
+  uniform highp mat4 uPMatrix;
+
+  }
+
+  }
+
+
+
+      xIncValue = -xIncValue;
+
+          </Link>
+
+  console.log(router.query)
+
+  }
+
+  cubeImage.src = "cubetexture.png";
+
+$.ajax({
+
+
+
+        <h3>TODO</h3>
+
+    gl_Position = uPMatrix * uMVMatrix * vec4(aVertexPosition, 1.0);
+
+}
+
+  success: function( result ) {
+
+export default function Name() {
+
+
+
+
+
+    this.handleSubmit = this.handleSubmit.bind(this);
+
+
+
+  if (!mvMatrixStack.length) {
+
+  attribute highp vec3 aVertexNormal;
+
+class App extends Component {
+
+import { FormApp } from './FormApp';
+
+}
+    if (Math.abs(squareYOffset) > 2.5) {
+
+      xIncValue = -xIncValue;
+
+            <a>About</a>
+
+    <div>
+
+
+
+
+
+  cubeTexture = gl.createTexture();
+
+            <a>About</a>
+
+    return (
+
+</script>
+
+import Link from "next/link";
+
+  url: "/api/getWeather",
+
+</script>
+
+
+
+    squareYOffset += yIncValue * ((30 * delta) / 1000.0);
+
+class MarkdownEditor extends React.Component {
+
+}
+
+
+
+    super(props);
+
+
+
+  const canvas = document.querySelector("#glCanvas");
+
+  }
+
+
+
+function initTextures() {
+
+  },
+
+  }
+
+  }
+
+const About = () => {
+
+  void main(void) {
+
+  tick() {
+
+class App extends React.Component {
+
+function mvPushMatrix(m) {
+
+      </ul>
+
+  gl.clear(gl.COLOR_BUFFER_BIT);
+
+  );
+
+
+
+  );
+
+    this.state = { seconds: 0 };
+
+    this.handleChange = this.handleChange.bind(this);
+
+  varying highp vec2 vTextureCoord;
+
+    mvMatrix = m.dup();
+
+  var m = Matrix.Rotation(inRadians, $V([v[0], v[1], v[2]])).ensure4x4();
+
+
+
+
+
+
+
+  }
+
+  }
+
+  return (
+
+
+
+  gl.generateMipmap(gl.TEXTURE_2D);
+
+$.ajax({
+
+    <h1>About Page</h1>
+
+    return (
+
+      <ul>
+
+  cubeTexture = gl.createTexture();
+
+        <TodoList items={this.state.items} />
+
+
+
+  gl.bindTexture(gl.TEXTURE_2D, texture);
+
+    <h1>About Page</h1>
+
+  render() {
+
+      </ul>
+
+    mvMatrixStack.push(m.dup());
+
+  const router = useRouter();
+
+  uniform highp mat4 uNormalMatrix;
+
+    this.md = new Remarkable();
+
+  void main(void) {
+
+  constructor(props) {
+
+  constructor(props) {
+
+}
+
+    this.interval = setInterval(() => this.tick(), 1000);
+
+}
+
+  varying highp vec2 vTextureCoord;
+
+            <a>About</a>
+
+      <h1>Hello world</h1>
+
+    highp float directional = max(dot(transformedNormal.xyz, directionalVector), 0.0);
+
+class App extends Component {
+
+var normalMatrix = mvMatrix.inverse();
+
+  )
+
+  varying highp vec2 vTextureCoord;
+
+export default App;
+
+function mvPushMatrix(m) {
+
+}
+
+}
+
+  }
+
+  if (gl === null) {
+
+    return;
+
+    <h1>About Page</h1>
+
+  multMatrix(m);
+
+      <FormApp />
+
+});
+
+  multMatrix(m);
+
+    this.handleChange = this.handleChange.bind(this);
+
+
+
+
+
+  var inRadians = angle * Math.PI / 180.0;
+
+  }
+
+
+
+  multMatrix(m);
+
+  cubeImage = new Image();
+
+}
+
+function mvRotate(angle, v) {
+
+  document.getElementById('root')
+
+export default function Color() {
+
+}
+
+          </Link>
+
+normalMatrix = normalMatrix.transpose();
+
+  getRawMarkup() {
+
+        </li>
+
+  return (
+
+    );
+
+    this.handleChange = this.handleChange.bind(this);
+
+
+
+
+
+    this.handleSubmit = this.handleSubmit.bind(this);
+
+  const gl = canvas.getContext("webgl");
+
+          </Link>
+
+  }
+
+
+
+
+
+    );
+
+export default function Name() {
+
+    super(props);
+
+        <TodoList items={this.state.items} />
+
+import { FormApp } from './FormApp';
+
+
+
+
+
+function mvPushMatrix(m) {
+
+
+
+  }
+
+    this.handleChange = this.handleChange.bind(this);
+
+            <a>About</a>
+
+}
+
+class App extends React.Component {
+
+function mvPushMatrix(m) {
+
+
+
+export default About
+
+
+
+      <div>
+
+    <h1>About Page</h1>
+
+    <div>
+
+  gl.bindTexture(gl.TEXTURE_2D, texture);
+
+  gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MAG_FILTER, gl.LINEAR);
+
+  tick() {
+
+
+
+}
+
+);
+
+
+
+window.onload = main;
+
+
+
+
+
+  return (
+
+    gl_Position = uPMatrix * uMVMatrix * vec4(aVertexPosition, 1.0);
+
+  if (!mvMatrixStack.length) {
+
+
+
+import Link from "next/link";
+
+
+
+  if (gl === null) {
+
+      yIncValue = -yIncValue;
+
+  }
+
+<script id="shader-vs" type="x-shader/x-vertex">
+
+
+
+    return (
+
+
+
+
+
+    );
+
+    <div>
+
+  }
+
+  mvMatrix = mvMatrixStack.pop();
+
+    squareYOffset += yIncValue * ((30 * delta) / 1000.0);
+
+</script>
+
+  success: function( result ) {
+
+  )
+
+    return (
+
+    vTextureCoord = aTextureCoord;
+
+  varying highp vec2 vTextureCoord;
+
+class Timer extends React.Component {
+
+  data: {
+
+  return <h1>{router.query.name}の{router.query.color}color</h1>;
+
+  attribute highp vec3 aVertexPosition;
+
+    this.state = { items: [], text: '' };
+
+  },
+
+  if (m) {
+
+  var inRadians = angle * Math.PI / 180.0;
+
+}
+
+
+
+  gl.bindTexture(gl.TEXTURE_2D, null);
+
+
+
+  render() {
+
+      <h1>Hello Next.js</h1>
+
+  void main(void) {
+
+    mvMatrix = m.dup();
+
+  multMatrix(m);
+
+  url: "/api/getWeather",
+
+    this.state = { seconds: 0 };
+
+  attribute highp vec3 aVertexNormal;
+
+  }
+
+var normalMatrix = mvMatrix.inverse();
+
+  const canvas = document.querySelector("#glCanvas");
+
+
+
+  )
+
+  attribute highp vec3 aVertexNormal;
+
+export default About
+
+
+
+
+
+  uniform highp mat4 uNormalMatrix;
+
+  }
+
+    highp vec3 directionalLightColor = vec3(0.5, 0.5, 0.75);
+
+}
+
+
+
+class App extends Component {
+
+  if (!mvMatrixStack.length) {
+
+  url: "/api/getWeather",
+
+    squareZOffset += zIncValue * ((30 * delta) / 1000.0);
+
+  data: {
+
+  )
+
+    return { __html: this.md.render(this.state.value) };
+
+window.onload = main;
+
+  const router = useRouter();
+
+  },
+
+  }
+
+}
+
+      <h1>Hello world</h1>
+
+    this.md = new Remarkable();
+
+  constructor(props) {
+
+export default function Color() {
+
+class App extends React.Component {
+
+  )
+
+function mvRotate(angle, v) {
+
+}
+
+  render() {
+
+      <h1>Hello world</h1>
+
+gl.uniformMatrix4fv(nUniform, false, new WebGLFloatArray(normalMatrix.flatten()));
+
+    return (
+
+);
+
+  }
+
+  attribute highp vec3 aVertexNormal;
+
+    <h1>About Page</h1>
+
+    super(props);
+
+    vTextureCoord = aTextureCoord;
+
+});
+
+}
+
+});
+
+});
+
+    highp vec4 transformedNormal = uNormalMatrix * vec4(aVertexNormal, 1.0);
+
+}
+
+    this.md = new Remarkable();
+
+    squareZOffset += zIncValue * ((30 * delta) / 1000.0);
+
+  gl.generateMipmap(gl.TEXTURE_2D);
+
+
+
+  gl.bindTexture(gl.TEXTURE_2D, null);
+
+          <Link href="/about">
+
+
+
+
+
+        <li>
+
+    highp vec4 transformedNormal = uNormalMatrix * vec4(aVertexNormal, 1.0);
+
+
+
+export default function Home() {
+
+  if (gl === null) {
+
+        <TodoList items={this.state.items} />
+
+  componentDidMount() {
+
+
+
+    vTextureCoord = aTextureCoord;
+
+    gl_Position = uPMatrix * uMVMatrix * vec4(aVertexPosition, 1.0);
+
+export default About
+
+  }
+
+    }
+
+}
+
+}
+
+  void main(void) {
+
+
+
+  }
+
+$.ajax({
+
+    this.handleChange = this.handleChange.bind(this);
+
+  }
+
+});
+
+  hiddenBox.show();
+
+  return (
+
+  );
+
+  constructor(props) {
+
+    return { __html: this.md.render(this.state.value) };
+
+    if (Math.abs(squareYOffset) > 2.5) {
+
+
+
+function handleTextureLoaded(image, texture) {
+
+
+
+  gl.bindTexture(gl.TEXTURE_2D, texture);
+
+
+
+          <Link href="/about">
+
+
+
+    mvMatrixStack.push(m.dup());
+
+    this.state = { value: 'Hello, **world**!' };
+
+      <h1>Hello world</h1>
+
+import { useRouter } from "next/router";
+
+export default function Color() {
+
+  gl.bindTexture(gl.TEXTURE_2D, texture);
+
+});
+
+}
+
+
+
+  const gl = canvas.getContext("webgl");
+
+import React, { Component } from 'react';
+
+  getRawMarkup() {
+
+var nUniform = gl.getUniformLocation(shaderProgram, "uNormalMatrix");
+
+
+
+
+
+
+
+  varying highp vec3 vLighting;
+
+import { useRouter } from "next/router";
+
+}
+
+  gl.bindTexture(gl.TEXTURE_2D, texture);
+
+    vLighting = ambientLight + (directionalLightColor * directional);
+
+  const canvas = document.querySelector("#glCanvas");
+
+    this.interval = setInterval(() => this.tick(), 1000);
+
+
+
+  var m = Matrix.Rotation(inRadians, $V([v[0], v[1], v[2]])).ensure4x4();
+
+    super(props);
+
+export default function Name() {
+
+  success: function( result ) {
+
+  gl.clearColor(0.0, 0.0, 0.0, 1.0);
+
+function About() {
+
+}
+
+  document.getElementById('root')
+
+  }
+
+    vLighting = ambientLight + (directionalLightColor * directional);
+
+      <FormApp />
+
+  if (gl === null) {
+
+    this.state = { value: 'Hello, **world**!' };
+
+import { useRouter } from "next/router";
+
+    }
+
+  var m = Matrix.Rotation(inRadians, $V([v[0], v[1], v[2]])).ensure4x4();
+
+      <h1>Hello world</h1>
+
+
+
+export default function Home() {
+
+  }
+
+export default function Color() {
+
+        </li>
+
+var nUniform = gl.getUniformLocation(shaderProgram, "uNormalMatrix");
+
+}
+
+    this.state = { seconds: 0 };
+
+
+
+    squareYOffset += yIncValue * ((30 * delta) / 1000.0);
+
+  hiddenBox.show();
+
+            What needs to be done?
+
+
+
+export default function Color() {
+
+    super(props);
+
+  }
+
+  varying highp vec2 vTextureCoord;
+
+var mvMatrixStack = [];
+
+    highp vec3 directionalLightColor = vec3(0.5, 0.5, 0.75);
+
+  const canvas = document.querySelector("#glCanvas");
+
+window.onload = main;
+
+        <h3>TODO</h3>
+
+}
+
+
+
+  constructor(props) {
+
+var nUniform = gl.getUniformLocation(shaderProgram, "uNormalMatrix");
+
+}
+
+$( "#button-container button" ).on( "click", function( event ) {
+
+
+
+    );
+
+  }
+
+export default function Home() {
+
+
+
+  gl.clearColor(0.0, 0.0, 0.0, 1.0);
+
+  var m = Matrix.Rotation(inRadians, $V([v[0], v[1], v[2]])).ensure4x4();
+
+  return (
+
+  data: {
+
+}
+
+function mvPopMatrix() {
+
+  attribute highp vec2 aTextureCoord;
+
+
+
+$( "#button-container button" ).on( "click", function( event ) {
+
+
+
+  render() {
+
+const About = () => {
+
+  render() {
+
+var normalMatrix = mvMatrix.inverse();
+
+    );
+
+        <li>
+
+  }
+
+
+
+  multMatrix(m);
+
+
+
+  if (gl === null) {
+
+}
+
+class App extends React.Component {
+
+function mvRotate(angle, v) {
+
+
+
+
+
+
+
+  void main(void) {
+
+gl.uniformMatrix4fv(nUniform, false, new WebGLFloatArray(normalMatrix.flatten()));
+
+
+
+  handleChange(e) {
+
+    squareXOffset += xIncValue * ((30 * delta) / 1000.0);
+
+}
+
+  }
+
+class App extends React.Component {
+
+      xIncValue = -xIncValue;
+
+  varying highp vec3 vLighting;
+
+    super(props);
+
+  console.log(router.query)
+
+}
+
+    squareXOffset += xIncValue * ((30 * delta) / 1000.0);
+
+    this.setState(state => ({
+
+  render() {
+
+    this.setState(state => ({
+
+          </Link>
+
+  gl.clear(gl.COLOR_BUFFER_BIT);
+
+      yIncValue = -yIncValue;
+
+      </ul>
+
+  render() {
+
+var hiddenBox = $( "#banner-message" );
+
+
+
+export default function Color() {
+
+export default function Home() {
+
+
+
+    super(props);
+
+function mvPopMatrix() {
+
+});
+
+  <App />,
+
+    return;
+
+var mvMatrixStack = [];
+
+  mvMatrix = mvMatrixStack.pop();
+
+class App extends Component {
+
+  url: "/api/getWeather",
+
+  varying highp vec2 vTextureCoord;
+
+  }
+
+  }
+
+    highp vec4 transformedNormal = uNormalMatrix * vec4(aVertexNormal, 1.0);
+
+}
+  gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MAG_FILTER, gl.LINEAR);
+
+    zipcode: 97201
+
+}
+
+normalMatrix = normalMatrix.transpose();
+
+          <Link href="/about">
+
+import React, { Component } from 'react';
+
+  if (!mvMatrixStack.length) {
+
+    <h1>About Page</h1>
+
+    <h1>About Page</h1>
+
+      <h1>Hello world</h1>
+
+    super(props);
+
+}
+
+import { useRouter } from "next/router";
+
+  return <h1>商品{router.query.name}page</h1>;
+
+export default About
+
+    if (Math.abs(squareYOffset) > 2.5) {
+
+function About() {
+
+class Timer extends React.Component {
+
+  const gl = canvas.getContext("webgl");
+
+var normalMatrix = mvMatrix.inverse();
+
+    </div>
+
+class App extends React.Component {
+
+  render() {
+
+    <h1>About Page</h1>
+
+  const router = useRouter();
+
+
+
+  if (!mvMatrixStack.length) {
+
+  url: "/api/getWeather",
+
+    mvMatrix = m.dup();
+
+import Link from "next/link";
+
+  }
+
+
+
+      yIncValue = -yIncValue;
+
+          </Link>
+
+export default About
+
+
+
+  }
+
+$.ajax({
+
+    this.md = new Remarkable();
+
+export default About
+
+
+
+    mvMatrix = m.dup();
+
+class App extends React.Component {
+
+  console.log(router.query)
+
+  return (
+
+class App extends Component {
+
+}
+
+  return <h1>{router.query.name}の{router.query.color}color</h1>;
+
+    $( "#weather-temp" ).html( "<strong>" + result + "</strong> degrees" );
+
+
+
+import { useRouter } from "next/router";
+
+
+
+  }
+
+
+
+
+
+}
+
+  hiddenBox.show();
+
+// Arrow function
+
+    super(props);
+
+    this.handleChange = this.handleChange.bind(this);
+
+  handleChange(e) {
+
+    </div>
+
+  return <h1>{router.query.name}の{router.query.color}color</h1>;
+
+  }
+
+
+
+
+
+function About() {
+
+
+
+    $( "#weather-temp" ).html( "<strong>" + result + "</strong> degrees" );
+
+  success: function( result ) {
+
+  getRawMarkup() {
+
+    <h1>About Page</h1>
+
+export default function Home() {
+
+export default App;
+
+    super(props);
+
+  const router = useRouter();
+
+
+
+    $( "#weather-temp" ).html( "<strong>" + result + "</strong> degrees" );
+
+  const gl = canvas.getContext("webgl");
+
+  tick() {
+
+    this.handleChange = this.handleChange.bind(this);
+
+// Arrow function
+
+  }
+
+  gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MIN_FILTER, gl.LINEAR_MIPMAP_NEAREST);
+
+      <h1>Hello world</h1>
+
+  render() {
+
+    gl_Position = uPMatrix * uMVMatrix * vec4(aVertexPosition, 1.0);
+
+}
+
+  <App />,
+
+    return { __html: this.md.render(this.state.value) };
+
+  render() {
+
+export default function Home() {
+
+      zIncValue = -zIncValue;
+
+var hiddenBox = $( "#banner-message" );
+
+    squareYOffset += yIncValue * ((30 * delta) / 1000.0);
+
+var normalMatrix = mvMatrix.inverse();
+
+  <App />,
+
+    squareZOffset += zIncValue * ((30 * delta) / 1000.0);
+
+    gl_Position = uPMatrix * uMVMatrix * vec4(aVertexPosition, 1.0);
+
+    );
+
+}
+
+gl.uniformMatrix4fv(nUniform, false, new WebGLFloatArray(normalMatrix.flatten()));
+
+
+
+  const router = useRouter();
+
+var nUniform = gl.getUniformLocation(shaderProgram, "uNormalMatrix");
+
+function About() {
+
+  cubeTexture = gl.createTexture();
+
+}
+
+  }
+
+
+
+    </div>
+
+  } else {
+
+    super(props);
+
+  void main(void) {
+
+        </li>
+
+      <h1>Hello world</h1>
+
+    this.interval = setInterval(() => this.tick(), 1000);
+
+
+
+export default About
+
+          <label htmlFor="new-todo">
+
+    highp float directional = max(dot(transformedNormal.xyz, directionalVector), 0.0);
+
+  gl.bindTexture(gl.TEXTURE_2D, texture);
+
+
+
+  mvMatrix = mvMatrixStack.pop();
+
+    squareYOffset += yIncValue * ((30 * delta) / 1000.0);
+
+  gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MAG_FILTER, gl.LINEAR);
+
+var normalMatrix = mvMatrix.inverse();
+
+  data: {
+
+
+
+    this.setState({ value: e.target.value });
+
+  gl.clear(gl.COLOR_BUFFER_BIT);
+
+        <li>
+
+    return { __html: this.md.render(this.state.value) };
+
+    mvMatrixStack.push(m.dup());
+
+}
+
+export default function Color() {
+
+import { FormApp } from './FormApp';
+
+export default function Name() {
+
+    this.handleSubmit = this.handleSubmit.bind(this);
+
+    this.state = { seconds: 0 };
+
+
+
+  attribute highp vec3 aVertexNormal;
+
+
+
+  gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MIN_FILTER, gl.LINEAR_MIPMAP_NEAREST);
+
+    this.handleChange = this.handleChange.bind(this);
+
+$( "#button-container button" ).on( "click", function( event ) {
+
+    super(props);
+
+
+
+}
+
+      xIncValue = -xIncValue;
+
+    }));
+
+}
+
+    highp float directional = max(dot(transformedNormal.xyz, directionalVector), 0.0);
+
+  if (gl === null) {
+
+
+
+    squareYOffset += yIncValue * ((30 * delta) / 1000.0);
+
+$.ajax({
+
+
+
+const About = () => {
+
+
+
+
+
+import { useRouter } from "next/router";
+
+export default App;
+
+  gl.clearColor(0.0, 0.0, 0.0, 1.0);
+
+  gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGBA, gl.RGBA, gl.UNSIGNED_BYTE, image);
+
+          <label htmlFor="new-todo">
+
+    <h1>About Page</h1>
+
+  return (
+
+});
+
+});
+
+  gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGBA, gl.RGBA, gl.UNSIGNED_BYTE, image);
+
+    return (
+
+    this.setState({ value: e.target.value });
+
+
+
+    vTextureCoord = aTextureCoord;
+
+}
+
+var hiddenBox = $( "#banner-message" );
+
+  const router = useRouter();
+
+  const gl = canvas.getContext("webgl");
+
+
+
+
+
+  }
+
+    return (
+
+
+
+
+
+function mvPopMatrix() {
+
+  }
+
+    <div>
+
+  const canvas = document.querySelector("#glCanvas");
+
+    gl_Position = uPMatrix * uMVMatrix * vec4(aVertexPosition, 1.0);
+
+      <ul>
+
+  varying highp vec2 vTextureCoord;
+
+}
+
+  }
+
+
+
+    vLighting = ambientLight + (directionalLightColor * directional);
+
+
+
+    );
+
+function mvPushMatrix(m) {
+
+      seconds: state.seconds + 1
+
+  }
+
+import { useRouter } from "next/router";
+
+  }
+
+
+
+  if (gl === null) {
+
+  if (gl === null) {
+
+  return (
+
+  gl.clearColor(0.0, 0.0, 0.0, 1.0);
+
+  return (
+
+          <Link href="/about">
+
+  }
+
+    highp vec3 directionalVector = vec3(0.85, 0.8, 0.75);
+
+  var m = Matrix.Rotation(inRadians, $V([v[0], v[1], v[2]])).ensure4x4();
+
+      zIncValue = -zIncValue;
+
+    );
+
+      zIncValue = -zIncValue;
+
+      zIncValue = -zIncValue;
+
+// Arrow function
+
+  }
+
+var normalMatrix = mvMatrix.inverse();
+
+    highp vec3 directionalLightColor = vec3(0.5, 0.5, 0.75);
+
+});
+
+  );
+
+  }
+
+  return mvMatrix;
+
+$( "#button-container button" ).on( "click", function( event ) {
+
+
+
+  getRawMarkup() {
+
+  void main(void) {
+
+  );
+
+
+
+  gl.bindTexture(gl.TEXTURE_2D, null);
+
+  }
+
+  return (
+
+  }
+
+    this.setState(state => ({
+
+
+
+}
+
+  constructor(props) {
+
+    $( "#weather-temp" ).html( "<strong>" + result + "</strong> degrees" );
+
+
+
+
+
+
+
+
+
+function mvPushMatrix(m) {
+
+  gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MAG_FILTER, gl.LINEAR);
+
+  )
+
+  uniform highp mat4 uNormalMatrix;
+
+            What needs to be done?
+
+          </Link>
+
+  return <h1>{router.query.name}の{router.query.color}color</h1>;
+
+  }
+
+  constructor(props) {
+
+  }
+
+var normalMatrix = mvMatrix.inverse();
+
+  }
+
+
+
+export default About
+
+    </div>
+
+  gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MAG_FILTER, gl.LINEAR);
+
+  }
+
+  }
+
+        <h3>TODO</h3>
+
+
+
+    zipcode: 97201
+
+function mvPushMatrix(m) {
+
+  uniform highp mat4 uMVMatrix;
+
+
+
+  }
+
+  return <h1>商品{router.query.name}page</h1>;
+
+    this.setState(state => ({
+
+
+
+export default About
+
+  tick() {
+
+  if (m) {
+
+    squareYOffset += yIncValue * ((30 * delta) / 1000.0);
+
+  gl.clear(gl.COLOR_BUFFER_BIT);
+
+);
+
+
+
+  uniform highp mat4 uMVMatrix;
+
+function About() {
+
+}
+
+    $( "#weather-temp" ).html( "<strong>" + result + "</strong> degrees" );
+
+    <h1>About Page</h1>
+
+window.onload = main;
+
+</script>
+
+}
+
+}
+
+  var m = Matrix.Rotation(inRadians, $V([v[0], v[1], v[2]])).ensure4x4();
+
+
+
+
+
+    return;
+
+  return mvMatrix;
+
+    $( "#weather-temp" ).html( "<strong>" + result + "</strong> degrees" );
+
+class App extends React.Component {
+
+          </Link>
+
+function initTextures() {
+
+    this.handleSubmit = this.handleSubmit.bind(this);
+
+  attribute highp vec2 aTextureCoord;
+
+      yIncValue = -yIncValue;
+
+  document.getElementById('root')
+
+  }
+
+  }
+
+  gl.bindTexture(gl.TEXTURE_2D, texture);
+
+export default About
+
+
+
+}
+
+}
+
+function mvPushMatrix(m) {
+
+  void main(void) {
+
+    super(props);
+
+</script>
+
+  }
+
+    squareZOffset += zIncValue * ((30 * delta) / 1000.0);
+
+  }
+
+  hiddenBox.show();
+
+  uniform highp mat4 uPMatrix;
+
+var mvMatrixStack = [];
+
+  }
+
+  }
+
+
+
+    vTextureCoord = aTextureCoord;
+
+}
+
+class MarkdownEditor extends React.Component {
+
+export default App;
+
+
+
+
+
+
+
+import { useRouter } from "next/router";
+
+          <Link href="/about">
+
+      seconds: state.seconds + 1
+
+      xIncValue = -xIncValue;
+
+    </div>
+
+
+
+      </ul>
+
+  }
+
+export default About
+
+    this.handleSubmit = this.handleSubmit.bind(this);
+
+);
+
+    <h1>About Page</h1>
+
+  if (gl === null) {
+
+  mvMatrix = mvMatrixStack.pop();
+
+    vTextureCoord = aTextureCoord;
+
+});
+
+  varying highp vec2 vTextureCoord;
+
+      <ul>
+
+  )
+
+          <label htmlFor="new-todo">
+
+  }
+
+    this.setState(state => ({
+
+
+
+import { FormApp } from './FormApp';
+
+  <App />,
+
+);
+
+
+
+    this.setState(state => ({
+
+
+
+  }
+
+  gl.bindTexture(gl.TEXTURE_2D, texture);
+
+import React, { Component } from 'react';
+
+export default function Color() {
+
+    highp float directional = max(dot(transformedNormal.xyz, directionalVector), 0.0);
+
+    return (
+
+<script id="shader-vs" type="x-shader/x-vertex">
+
+function main() {
+
+    <h1>About Page</h1>
+
+// Arrow function
+
+function mvRotate(angle, v) {
+
+  return <h1>{router.query.name}の{router.query.color}color</h1>;
+
+    mvMatrixStack.push(m.dup());
+
+}
+
+  }
+
+  hiddenBox.show();
+
+</script>
+
+
+
+      xIncValue = -xIncValue;
+
+  multMatrix(m);
+
+  )
+
+
+
+  return <h1>商品{router.query.name}page</h1>;
+
+  document.getElementById('root')
+
+  }
+
+
+
+
+
+class Timer extends React.Component {
+
+  return <h1>商品{router.query.name}page</h1>;
+
+      seconds: state.seconds + 1
+
+
+
+});
+
+  multMatrix(m);
+
+
+
+  return <h1>{router.query.name}の{router.query.color}color</h1>;
+
+}
+
+}
+
+          <Link href="/about">
+
+  uniform highp mat4 uPMatrix;
+
+class TodoApp extends React.Component {
+
+}
+
+  if (m) {
+
+});
+
+
+
+  void main(void) {
+
+
+
+    mvMatrixStack.push(m.dup());
+
+$.ajax({
+
+    this.handleChange = this.handleChange.bind(this);
+
+  url: "/api/getWeather",
+
+    this.setState({ value: e.target.value });
+
+  }
+
+  cubeImage.onload = function() { handleTextureLoaded(cubeImage, cubeTexture); }
+
+    return (
+
+
+
+    return (
+
+  multMatrix(m);
+
+export default function Home() {
+
+  const canvas = document.querySelector("#glCanvas");
+
+const About = () => {
+
+  }
+
+  }
+
+    highp float directional = max(dot(transformedNormal.xyz, directionalVector), 0.0);
+
+
+
+$.ajax({
+
+export default function Color() {
+
+    super(props);
+
+    zipcode: 97201
+
+  const router = useRouter();
+
+  render() {
+
+  render() {
+
+export default About
+
+
+
+    super(props);
+
+
+
+  const canvas = document.querySelector("#glCanvas");
+
+    );
+
+    mvMatrixStack.push(m.dup());
+
+
+
+        <li>
+
+  return <h1>{router.query.name}の{router.query.color}color</h1>;
+
+}
+
+  return (
+
+  return mvMatrix;
+
+
+
+  const gl = canvas.getContext("webgl");
+
+    this.handleSubmit = this.handleSubmit.bind(this);
+
+  }
+
+
+
+  }
+
+}
+}
+
+export default About
+
+    super(props);
+
+var mvMatrixStack = [];
+
+</script>
+
+function handleTextureLoaded(image, texture) {
+
+}
+
+  const canvas = document.querySelector("#glCanvas");
+
+      <div>
+
+  constructor(props) {
+
+    this.interval = setInterval(() => this.tick(), 1000);
+
+  attribute highp vec2 aTextureCoord;
+
+    mvMatrixStack.push(mvMatrix.dup());
+
+
+
+}
+
+function initTextures() {
+
+        <TodoList items={this.state.items} />
+
+  return (
+
+        </li>
+
+  gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MIN_FILTER, gl.LINEAR_MIPMAP_NEAREST);
+
+  document.getElementById('root')
+
+  cubeTexture = gl.createTexture();
+
+
+
+
+
+import React, { Component } from 'react';
+
+</script>
+
+    squareYOffset += yIncValue * ((30 * delta) / 1000.0);
+
+const About = () => {
+
+  handleChange(e) {
+
+          </Link>
+
+    );
+
+      <div>
+
+        </li>
+
+
+
+<script id="shader-vs" type="x-shader/x-vertex">
+
+    vTextureCoord = aTextureCoord;
+
+        <form onSubmit={this.handleSubmit}>
+
+  );
+
+export default function Home() {
+
+        <li>
+
+  }
+
+      <h1>Hello world</h1>
+
+export default function Name() {
+
+
+
+}
+function About() {
+
+  cubeImage = new Image();
+
+var nUniform = gl.getUniformLocation(shaderProgram, "uNormalMatrix");
+
+
+
+  varying highp vec3 vLighting;
+
+  }
+
+}
+
+function main() {
+
+  multMatrix(m);
+
+export default function Color() {
+
+  return (
+
+  if (m) {
+
+  }
+
+  varying highp vec2 vTextureCoord;
+
+    this.state = { seconds: 0 };
+
+
+
+function mvPopMatrix() {
+
+  }
+
+    }
+
+
+
+}
+
+    this.state = { value: 'Hello, **world**!' };
+
+  uniform highp mat4 uPMatrix;
+
+  )
+
+  void main(void) {
+
+class MarkdownEditor extends React.Component {
+
+  gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MIN_FILTER, gl.LINEAR_MIPMAP_NEAREST);
+
+  url: "/api/getWeather",
+
+  gl.bindTexture(gl.TEXTURE_2D, texture);
+
+  constructor(props) {
+
+    this.handleChange = this.handleChange.bind(this);
+
+class App extends Component {
+
+        <form onSubmit={this.handleSubmit}>
+
+  attribute highp vec3 aVertexPosition;
+
+    squareZOffset += zIncValue * ((30 * delta) / 1000.0);
+
+  constructor(props) {
+
+window.onload = main;
+
+    squareXOffset += xIncValue * ((30 * delta) / 1000.0);
+
+  if (m) {
+
+      <FormApp />
+
+    super(props);
+
+    if (Math.abs(squareYOffset) > 2.5) {
+
+    this.setState({ value: e.target.value });
+
+    return (
+
+  const router = useRouter();
+
+  gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGBA, gl.RGBA, gl.UNSIGNED_BYTE, image);
+
+export default function Home() {
+
+}
+
+  var m = Matrix.Rotation(inRadians, $V([v[0], v[1], v[2]])).ensure4x4();
+
+});
+
+  uniform highp mat4 uPMatrix;
+
+  } else {
+
+var hiddenBox = $( "#banner-message" );
+
+}
+
+
+
+function main() {
+
+    highp vec3 directionalVector = vec3(0.85, 0.8, 0.75);
+
+<script id="shader-vs" type="x-shader/x-vertex">
+
+  return (
+
+  },
+
+    );
+
+  attribute highp vec3 aVertexPosition;
+
+
+
+        </li>
+
+
+
+class App extends React.Component {
+
+  constructor(props) {
+
+    this.interval = setInterval(() => this.tick(), 1000);
+
+        <h3>TODO</h3>
+
+
+
+  multMatrix(m);
+
+  tick() {
+
+      <FormApp />
+
+    super(props);
+
+
+
+class TodoApp extends React.Component {
+
+
+
+function About() {
+
+    mvMatrixStack.push(mvMatrix.dup());
+
+export default About
+
+
+
+    highp vec4 transformedNormal = uNormalMatrix * vec4(aVertexNormal, 1.0);
+
+export default function Home() {
+
+      zIncValue = -zIncValue;
+
+    return (
+
+  hiddenBox.show();
+
+
+
+    highp vec4 transformedNormal = uNormalMatrix * vec4(aVertexNormal, 1.0);
+
+
+
+    this.setState({ value: e.target.value });
+
+</script>
+
+  }
+
+  url: "/api/getWeather",
+
+  uniform highp mat4 uPMatrix;
+
+);
+
+  const router = useRouter();
+
+  constructor(props) {
+
+  const canvas = document.querySelector("#glCanvas");
+
+import { useRouter } from "next/router";
+
+
+
+}
+  varying highp vec3 vLighting;
+
+
+
+  getRawMarkup() {
+
+function mvRotate(angle, v) {
+
+      </ul>
+
+  const router = useRouter();
+
+    return (
+
+  render() {
+
+
+
+  <App />,
+
+          </Link>
+
+    return;
+
+
+
+
+
+var normalMatrix = mvMatrix.inverse();
+
+    if (Math.abs(squareYOffset) > 2.5) {
+
+var mvMatrixStack = [];
+
+      seconds: state.seconds + 1
+
+    highp vec3 ambientLight = vec3(0.6, 0.6, 0.6);
+
+    );
+
+  constructor(props) {
+
+  cubeTexture = gl.createTexture();
+
+
+
+class App extends Component {
+
+
+
+function mvRotate(angle, v) {
+
+
+
+    super(props);
+
+  }
+
+  var m = Matrix.Rotation(inRadians, $V([v[0], v[1], v[2]])).ensure4x4();
+
+class App extends Component {
+
+  url: "/api/getWeather",
+
+  var inRadians = angle * Math.PI / 180.0;
+
+});
+
+  var m = Matrix.Rotation(inRadians, $V([v[0], v[1], v[2]])).ensure4x4();
+
+
+
+  }
+
+class TodoApp extends React.Component {
+
+export default function Color() {
+
+
+
+
+
+      <h1>Hello Next.js</h1>
+
+    $( "#weather-temp" ).html( "<strong>" + result + "</strong> degrees" );
+
+  gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MIN_FILTER, gl.LINEAR_MIPMAP_NEAREST);
+
+    );
+
+          </Link>
+
+class TodoApp extends React.Component {
+
+    this.md = new Remarkable();
+
+
+
+}
+
+    mvMatrixStack.push(m.dup());
+
+  uniform highp mat4 uNormalMatrix;
+
+            <a>About</a>
+
+}
+
+  var m = Matrix.Rotation(inRadians, $V([v[0], v[1], v[2]])).ensure4x4();
+
+  render() {
+
+
+
+    this.md = new Remarkable();
+
+
+
+  }
+
+
+
+}
+
+ReactDOM.render(
+
+  render() {
+
+    super(props);
+
+
+
+        <TodoList items={this.state.items} />
+
+    super(props);
+
+
+
+    this.md = new Remarkable();
+
+  constructor(props) {
+
+  }
+
+  attribute highp vec3 aVertexPosition;
+
+  void main(void) {
+
+$( "#button-container button" ).on( "click", function( event ) {
+
+}
+
+  hiddenBox.show();
+
+function main() {
+
+    $( "#weather-temp" ).html( "<strong>" + result + "</strong> degrees" );
+
+function mvRotate(angle, v) {
+
+export default function Name() {
+
+});
+
+});
+
+            <a>About</a>
+
+  cubeImage = new Image();
+
+    </div>
+
+  return (
+
+      yIncValue = -yIncValue;
+
+// Arrow function
+
+    this.setState(state => ({
+
+
+
+$.ajax({
+
+class MarkdownEditor extends React.Component {
+
+  var m = Matrix.Rotation(inRadians, $V([v[0], v[1], v[2]])).ensure4x4();
+
+
+
+      xIncValue = -xIncValue;
+
+export default App;
+
+      </ul>
+
+  return (
+
+  }
+
+  gl.clearColor(0.0, 0.0, 0.0, 1.0);
+
+
+
+  }
+
+
+
+  }
+
+window.onload = main;
+
+  cubeImage = new Image();
+
+// Arrow function
+
+    this.state = { value: 'Hello, **world**!' };
+
+          </Link>
+
+    this.setState({ value: e.target.value });
+
+    mvMatrixStack.push(m.dup());
+
+  uniform highp mat4 uMVMatrix;
+
+
+
+var hiddenBox = $( "#banner-message" );
+
+
+
+    mvMatrixStack.push(m.dup());
+
+    mvMatrix = m.dup();
+
+);
+
+  },
+
+      xIncValue = -xIncValue;
+
+}
+
+}
+
+    this.setState({ value: e.target.value });
+
+
+
+});
+
+            What needs to be done?
+
+    super(props);
+
+}
+
+  var m = Matrix.Rotation(inRadians, $V([v[0], v[1], v[2]])).ensure4x4();
+
+
+
+  const gl = canvas.getContext("webgl");
+
+        <h3>TODO</h3>
+
+  gl.generateMipmap(gl.TEXTURE_2D);
+
+
+
+}
+
+  }
+
+  }
+
+        <h3>TODO</h3>
+
+  attribute highp vec2 aTextureCoord;
+
+
+
+$( "#button-container button" ).on( "click", function( event ) {
+
+window.onload = main;
+
+      </ul>
+
+    );
+
+  var inRadians = angle * Math.PI / 180.0;
+
+      <h1>Hello Next.js</h1>
+
+      </ul>
+
+var normalMatrix = mvMatrix.inverse();
+
+
+
+function initTextures() {
+
+    this.setState({ value: e.target.value });
+
+  gl.bindTexture(gl.TEXTURE_2D, null);
+
+  const router = useRouter();
+
+    this.setState({ value: e.target.value });
+
+  } else {
+
+  gl.bindTexture(gl.TEXTURE_2D, texture);
+
+        <li>
+
+    this.handleChange = this.handleChange.bind(this);
+
+
+
+    this.md = new Remarkable();
+
+
+
+  tick() {
+
+  return <h1>商品{router.query.name}page</h1>;
+
+    this.setState(state => ({
+
+    this.setState({ value: e.target.value });
+
+import { useRouter } from "next/router";
+
+  gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGBA, gl.RGBA, gl.UNSIGNED_BYTE, image);
+
+    );
+
+  attribute highp vec3 aVertexNormal;
+
+
+
+
+
+        <form onSubmit={this.handleSubmit}>
+
+
+
+  );
+
+    mvMatrixStack.push(m.dup());
+
+    gl_Position = uPMatrix * uMVMatrix * vec4(aVertexPosition, 1.0);
+
+          <label htmlFor="new-todo">
+
+  }
+
+      xIncValue = -xIncValue;
+
+
+
+import Link from "next/link";
+
+            What needs to be done?
+
+}
+
+
+
+  hiddenBox.show();
+
+
+
+
+
+function About() {
+
+
+
+  attribute highp vec3 aVertexPosition;
+
+}
+
+</script>
+
+  render() {
+
+
+
+import { FormApp } from './FormApp';
+
+    );
+
+  data: {
+
+  gl.generateMipmap(gl.TEXTURE_2D);
+
+    squareZOffset += zIncValue * ((30 * delta) / 1000.0);
+
+  <App />,
+
+  mvMatrix = mvMatrixStack.pop();
+
+  tick() {
+
+    highp float directional = max(dot(transformedNormal.xyz, directionalVector), 0.0);
+
+  multMatrix(m);
+
+  url: "/api/getWeather",
+
+  varying highp vec2 vTextureCoord;
+
+
+
+
+
+
+
+}
+
+  constructor(props) {
+
+
+
+  constructor(props) {
+
+export default About
+
+
+
+
+
+}
+
+
+
+
+
+$( "#button-container button" ).on( "click", function( event ) {
+
+// Arrow function
+
+  data: {
+
+  gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MAG_FILTER, gl.LINEAR);
+
+    highp vec3 ambientLight = vec3(0.6, 0.6, 0.6);
+
+  }
+
+  },
+
+window.onload = main;
+
+    this.handleSubmit = this.handleSubmit.bind(this);
+
+  document.getElementById('root')
+
+
+
+var hiddenBox = $( "#banner-message" );
+
+  cubeImage.src = "cubetexture.png";
+
+    highp vec3 directionalVector = vec3(0.85, 0.8, 0.75);
+
+class TodoApp extends React.Component {
+
+  return (
+
+});
+
+  }
+
+export default About
+
+}
+
+  cubeImage = new Image();
+
+      seconds: state.seconds + 1
+
+export default About
+
+  constructor(props) {
+
+      zIncValue = -zIncValue;
+
+
+
+        <h3>TODO</h3>
+
+  componentDidMount() {
+
+  if (m) {
+
+
+
+  attribute highp vec3 aVertexPosition;
+
+  uniform highp mat4 uNormalMatrix;
+
+  }
+
+
+
+
+
+    highp vec3 directionalVector = vec3(0.85, 0.8, 0.75);
+
+  } else {
+
+    squareXOffset += xIncValue * ((30 * delta) / 1000.0);
+
+  return (
+
+  varying highp vec2 vTextureCoord;
+
+</script>
+
+  return <h1>商品{router.query.name}page</h1>;
+
+  data: {
+
+
+
+class Timer extends React.Component {
+
+    this.state = { seconds: 0 };
+
+    squareXOffset += xIncValue * ((30 * delta) / 1000.0);
+
+      <h1>Hello world</h1>
+
+export default About
+
+function mvPopMatrix() {
+
+function About() {
+
+          <label htmlFor="new-todo">
+
+
+
+  void main(void) {
+
+
+
+</script>
+
+}
+
+  render() {
+
+function About() {
+
+    zipcode: 97201
+
+  multMatrix(m);
+
+  }
+
+  attribute highp vec3 aVertexPosition;
+
+  )
+
+class MarkdownEditor extends React.Component {
+
+  constructor(props) {
+
+  data: {
+
+    $( "#weather-temp" ).html( "<strong>" + result + "</strong> degrees" );
+
+    super(props);
+
+  cubeTexture = gl.createTexture();
+
+  document.getElementById('root')
+
+
+
+  gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGBA, gl.RGBA, gl.UNSIGNED_BYTE, image);
+
+function handleTextureLoaded(image, texture) {
+
+
+
+  componentDidMount() {
+
+    vTextureCoord = aTextureCoord;
+
+  uniform highp mat4 uPMatrix;
+
+  );
+
+export default function Name() {
+
+      </ul>
+
+        <h3>TODO</h3>
+
+  constructor(props) {
+
+    return;
+
+}
+  gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGBA, gl.RGBA, gl.UNSIGNED_BYTE, image);
+
+  void main(void) {
+
+import { useRouter } from "next/router";
+
+  return (
+
+export default App;
+
+  }
+
+  console.log(router.query)
+
+    super(props);
+
+  const router = useRouter();
+
+var hiddenBox = $( "#banner-message" );
+
+  url: "/api/getWeather",
+
+  if (!mvMatrixStack.length) {
+
+  const router = useRouter();
+
+}
+
+});
+
+  }
+
+    return;
+
+  }
+
+  gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MIN_FILTER, gl.LINEAR_MIPMAP_NEAREST);
+
+    </div>
+
+class MarkdownEditor extends React.Component {
+
+  gl.bindTexture(gl.TEXTURE_2D, null);
+
+  data: {
+
+    this.handleChange = this.handleChange.bind(this);
+
+  if (gl === null) {
+
+
+
+  attribute highp vec2 aTextureCoord;
+
+  gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MAG_FILTER, gl.LINEAR);
+
+    vLighting = ambientLight + (directionalLightColor * directional);
+
+
+
+  if (m) {
+
+      zIncValue = -zIncValue;
+
+    this.handleSubmit = this.handleSubmit.bind(this);
+
+    this.handleChange = this.handleChange.bind(this);
+
+        <TodoList items={this.state.items} />
+
+  if (gl === null) {
+
+  attribute highp vec2 aTextureCoord;
+
+    $( "#weather-temp" ).html( "<strong>" + result + "</strong> degrees" );
+
+    this.handleChange = this.handleChange.bind(this);
+
+    super(props);
+
+}
+
+      </ul>
+
+  cubeImage.onload = function() { handleTextureLoaded(cubeImage, cubeTexture); }
+
+    vTextureCoord = aTextureCoord;
+
+}
+
+    }
+
+        <h3>TODO</h3>
+
+}
+
+        <h3>TODO</h3>
+
+      <ul>
+
+  attribute highp vec2 aTextureCoord;
+
+  }
+
+
+
+    this.handleChange = this.handleChange.bind(this);
+
+  mvMatrix = mvMatrixStack.pop();
+
+
+
+      <ul>
+
+  attribute highp vec2 aTextureCoord;
+
+
+
+  gl.bindTexture(gl.TEXTURE_2D, texture);
+
+});
+
+    squareYOffset += yIncValue * ((30 * delta) / 1000.0);
+
+  constructor(props) {
+
+  hiddenBox.show();
+
+
+
+  cubeImage.onload = function() { handleTextureLoaded(cubeImage, cubeTexture); }
+
+            What needs to be done?
+
+
+
+    this.state = { items: [], text: '' };
+
+  var inRadians = angle * Math.PI / 180.0;
+
+  multMatrix(m);
+
+
+
+
+
+  constructor(props) {
+
+  )
+
+  return (
+
+export default About
+
+  if (m) {
+
+
